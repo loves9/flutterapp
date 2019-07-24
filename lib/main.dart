@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-import './main/home/HomePage.dart';
+import './pages/main/home/HomePage.dart';
+
+import './pages/AboutPage.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: '会议列表'),
+      home: HomePage(),
     );
   }
 }
